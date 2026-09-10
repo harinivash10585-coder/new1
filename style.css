@@ -8,9 +8,6 @@
     --muted: #91a7b8;
 }
 
-
-/* ================= RESET ================= */
-
 * {
     margin: 0;
     padding: 0;
@@ -27,8 +24,6 @@ body {
 }
 
 
-/* ================= CURSOR ================= */
-
 .cursor {
     position: fixed;
     width: 20px;
@@ -44,9 +39,6 @@ body {
 
     transition: 0.08s;
 }
-
-
-/* ================= NAVBAR ================= */
 
 nav {
     position: fixed;
@@ -102,9 +94,6 @@ nav a {
 nav a:hover {
     color: var(--cyan);
 }
-
-
-/* ================= HERO ================= */
 
 .hero {
     min-height: 100vh;
@@ -214,8 +203,6 @@ nav a:hover {
 }
 
 
-/* ================= BUTTONS ================= */
-
 .buttons {
     margin-top: 35px;
 
@@ -272,9 +259,6 @@ nav a:hover {
 
     color: var(--cyan);
 }
-
-
-/* ================= COMPASS ================= */
 
 .compass {
     position: absolute;
@@ -372,9 +356,6 @@ nav a:hover {
     }
 }
 
-
-/* ================= WAVE ================= */
-
 .wave {
     position: absolute;
 
@@ -392,8 +373,6 @@ nav a:hover {
         );
 }
 
-
-/* ================= SECTIONS ================= */
 
 section {
     padding: 120px 8%;
@@ -422,8 +401,6 @@ section {
 }
 
 
-/* ================= ABOUT ================= */
-
 .about-grid {
     display: grid;
 
@@ -447,9 +424,6 @@ section {
 .about-text strong {
     color: white;
 }
-
-
-/* ================= PROFILE CARD ================= */
 
 .profile-card {
     min-height: 350px;
@@ -519,8 +493,6 @@ section {
     font-weight: 600;
 }
 
-
-/* ================= SKILLS ================= */
 
 .skills {
     display: grid;
@@ -596,9 +568,6 @@ section {
 
     font-size: 14px;
 }
-
-
-/* ================= JOURNEY ================= */
 
 .timeline {
     max-width: 850px;
@@ -680,8 +649,6 @@ section {
 }
 
 
-/* ================= CONTACT ================= */
-
 .contact {
     text-align: center;
 
@@ -715,8 +682,6 @@ section {
 }
 
 
-/* ================= FOOTER ================= */
-
 footer {
     padding: 30px;
 
@@ -730,8 +695,6 @@ footer {
     font-size: 13px;
 }
 
-
-/* ================= MOBILE ================= */
 
 @media (max-width: 850px) {
 
